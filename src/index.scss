@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 1.2rem;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Moderne Sans';
+  src: url(../assets/Moderne-Sans.ttf);
+}
+@font-face {
+  font-family: 'ZELDA';
+  src: url(../assets/ZELDA.ttf);
+}
+
+@font-face {
+  font-family: 'lobster';
+  src: url(../assets/Lobster.ttf);
+}
+
+

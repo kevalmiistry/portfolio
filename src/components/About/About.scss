@@ -1,0 +1,24 @@
+.about_main{
+    font-family: 'lobster';
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s;
+    overflow: hidden;
+    .about_content_wrap{
+        margin-top: -10rem;
+        .head_line_text{
+            font-size: 5rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-family: 'Moderne Sans';
+            font-weight: 300;
+        }
+    }
+}
