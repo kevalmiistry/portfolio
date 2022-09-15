@@ -21,6 +21,7 @@ const Techs = () => {
                         <span className="item">Javascript</span>
                         <span className="item">HTML</span>
                         <span className="item">CSS</span>
+                        <span className="item">PHP</span>
                         <span className="item">Python</span>
                         <span className="item">C</span>
                         <span className="item">C++</span>
