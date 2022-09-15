@@ -10,8 +10,11 @@ import './Navbar.scss';
 const Navbar = () => {
     let Location = useLocation();
     const options = {
-        Technologies: 'Technologies',
-        about: 'About'
+        technologies: 'Technologies',
+        about: 'About',
+        education: 'Education',
+        projects: 'Projects'
+
     };
     let t = undefined;
     t = Location.pathname.slice(1);
@@ -23,7 +26,7 @@ const Navbar = () => {
                     KM{' '}
                     <span className="small_text">
                         <FontAwesomeIcon icon={faArrowRightLong} />{' '}
-                        {t && options[t]}
+                        {t ? options[t]:'About'}
                     </span>
                 </div>
                 <div className="menu_section">
@@ -41,7 +44,7 @@ const Navbar = () => {
                         <li>
                             <span className="menu_initial">E</span>
                             <NavLink
-                                to="/Technologies"
+                                to="/technologies"
                                 className="menu_main_txt"
                                 activeclassname="active"
                             >
@@ -51,7 +54,7 @@ const Navbar = () => {
                         <li>
                             <span className="menu_initial">N</span>
                             <NavLink
-                                to="/Projects"
+                                to="/projects"
                                 className="menu_main_txt"
                                 activeclassname="active"
                             >
@@ -61,7 +64,7 @@ const Navbar = () => {
                         <li>
                             <span className="menu_initial">U</span>
                             <NavLink
-                                to="/Education"
+                                to="/education"
                                 className="menu_main_txt"
                                 activeclassname="active"
                             >

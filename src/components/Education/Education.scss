@@ -1,0 +1,124 @@
+$card1Color: #ff1493;
+$card2Color: #f89221;
+$card3Color: #5e0fff;
+$card4Color: #fe1f4e;
+
+#education_main {
+    margin-bottom: 20rem;
+    animation: fadeIn 1s;
+    .upper-div {
+        position: sticky;
+        top: 0;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        width: 800px;
+        margin: auto;
+        .card {
+            background-color: #111;
+            width: 800px;
+            height: 500px;
+            border-radius: 16px;
+            box-shadow: 0px -2.5rem 1.5rem 0.5rem rgb(0, 0, 0, 0.6);
+            transition: all 350ms ease-in;
+            .inner-card-div {
+                height: 87%;
+                padding: 2rem 2rem;
+                margin: 2rem 2rem;
+                border-left: 20px solid;
+                border-bottom: 20px solid;
+                border-top-left-radius: 18px;
+                border-bottom-right-radius: 18px;
+                border-bottom-left-radius: 18px;
+                .course_name {
+                    font-size: 2rem;
+                    font-family: 'Lato';
+                    font-weight: 600;
+                    margin: 1rem 0;
+                    margin-top: 3rem;
+                }
+                .institute_name {
+                    font-size: 2.6rem;
+                    font-family: 'lobster';
+                    margin-bottom: 1rem;
+                    color: #f1f1f1;
+                }
+                .time_period {
+                    font-size: 1.2rem;
+                    font-family: 'Lato';
+                }
+            }
+            h1 {
+                margin-bottom: 1.5rem;
+                letter-spacing: 0px;
+                font-weight: 300;
+            }
+        }
+    }
+    #card-1 {
+        transform: translateY(6rem);
+        background-color: $card1Color;
+        box-shadow: none;
+        .inner-card-div {
+            border-color: lighten($card1Color, 20);
+        }
+    }
+    #card-2 {
+        background-color: $card2Color;
+        transform: translateY(10rem);
+        .inner-card-div {
+            border-color: lighten($card2Color, 20);
+        }
+    }
+    #card-3 {
+        background-color: $card3Color;
+        transform: translateY(14rem);
+        .inner-card-div {
+            border-color: lighten($card3Color, 20);
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #education_main {
+        .upper-div {
+            position: sticky;
+            top: 0;
+            height: 60vh;
+            display: flex;
+            width: 90%;
+            .card {
+                width: auto;
+                height: 500px;
+                border-radius: 16px;
+                .inner-card-div {
+                    height: 87%;
+                    padding: 2rem 1rem;
+                    margin: 2rem 1.5rem;
+                    border-left: 10px solid;
+                    border-bottom: 10px solid;
+                    border-top-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                    .course_name {
+                        font-size: 1.4rem;
+                        font-family: 'Lato';
+                        font-weight: 600;
+                        margin: 1rem 0;
+                        margin-top: 3rem;
+                    }
+                    .institute_name {
+                        font-size: 2rem;
+                        font-family: 'lobster';
+                        margin-bottom: 1rem;
+                        color: #f1f1f1;
+                    }
+                    .time_period {
+                        font-size: 1rem;
+                        font-family: 'Lato';
+                    }
+                }
+            }
+        }
+    }
+}
