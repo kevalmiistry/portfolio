@@ -1,7 +1,9 @@
 #navbar_main {
+    position: sticky;
+    top: 0;
     padding: 1rem 0;
     margin: auto;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,6 +26,7 @@
     }
     .menu_section {
         ul {
+            font-family: 'Moderne Sans';
             list-style: none;
             display: flex;
             li {
@@ -86,7 +89,10 @@ a {
         overflow-x: scroll;
         flex-direction: column;
         justify-content: center;
-        // align-items: center;
+        .navbar_logo{
+            padding-top: 1rem ;
+            padding-left: 1rem;
+            }
         .menu_section {
             display: flex;
             justify-content: flex-end;
@@ -94,9 +100,7 @@ a {
             align-items: center;
             transition: all 350ms ease-in;
             margin-bottom: 0.6rem;
-            .navbar_logo{
-                justify-self: flex-start;
-            }
+            
             &:hover {
                 .mobile_nav_point {
                     transform: scale(0);

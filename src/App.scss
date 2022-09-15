@@ -1,6 +1,8 @@
 @import url(./index.scss);
 .app{
     margin: auto;
-    width: 80%;
+    width: 100%;
     font-family: 'Moderne Sans';
+    min-height: calc(100vh - 72px - 55px);
+    // border: 1px solid red;
 }

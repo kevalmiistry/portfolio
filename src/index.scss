@@ -6,13 +6,25 @@
   box-sizing: border-box;
 }
 
+// for Chrome-Safari
+::-webkit-scrollbar{
+  width: 0;
+}
+
+// for FireFox
+@supports(scrollbar-width: none){
+  *{
+    scrollbar-width: none;
+  }
+}
+
 body {
+  // border: 1px dashed blue;
   background-color: #111;
   color: #fff;
   height: 100vh;
-  overflow: hidden;
+  // overflow: hidden;
   font-size: 1.2rem;
-  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
