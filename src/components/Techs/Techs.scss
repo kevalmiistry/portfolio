@@ -21,8 +21,11 @@
         }
         .category_items{
             margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
             .item{
                 font-family: 'lato';
+                margin: 5px 0;
                 margin-right: 1rem;
                 background-color: #333;
                 padding: .5rem .8rem;
@@ -46,8 +49,6 @@
             }
             .category_items{
                 margin-top: 1rem;
-                display: flex;
-                flex-wrap: wrap;
                 .item{
                     margin: 5px 0;
                     margin-right: 1rem;

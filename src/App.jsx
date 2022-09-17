@@ -5,6 +5,7 @@ import About from './components/About/About'
 import Footer from './components/Footer/Footer';
 import Techs from './components/Techs/Techs';
 import Education from './components/Education/Education';
+import Projects from './components/Projects/Projects';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                   <Route exact path='/about' element={<About />} />
                   <Route exact path='/technologies' element={<Techs />} />
                   <Route exact path='/education' element={<Education />} />
+                  <Route exact path='/projects' element={<Projects />} />
                 </Routes>
             </div>
                 <Footer />
