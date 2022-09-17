@@ -23,6 +23,7 @@
         }
     }
     .resume_btn {
+        display: inline-block;
         margin-top: 2rem;
         background-color: #111;
         padding: 0.5rem 1.5rem;
@@ -33,6 +34,7 @@
         border: 2px solid #fff;
         border-radius: 15px;
         transition: all 250ms ease-in;
+        cursor: pointer;
         &:hover {
             background-color: #fff;
             color: #111;

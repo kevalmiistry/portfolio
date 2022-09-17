@@ -19,29 +19,26 @@
 }
 
 body {
-  // border: 1px dashed blue;
   background-color: #111;
   color: #fff;
   height: 100vh;
-  // overflow: hidden;
   font-size: 1.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-// font-family: 'Lato', sans-serif;
+
 @font-face {
   font-family: 'Moderne Sans';
-  src: url(../assets/Moderne-Sans.ttf);
+  src: url(./assets/fonts/Moderne-Sans.ttf);
 }
 @font-face {
   font-family: 'ZELDA';
-  src: url(../assets/ZELDA.ttf);
+  src: url(./assets/fonts/ZELDA.ttf);
 }
 
 @font-face {
   font-family: 'lobster';
-  src: url(../assets/Lobster.ttf);
+  src: url(./assets/fonts/Lobster.ttf);
 }
-
-
