@@ -35,7 +35,7 @@ const Navbar = () => {
                             <span className="menu_initial">M</span>
                             <NavLink
                                 to="/about"
-                                className="menu_main_txt"
+                                className={`menu_main_txt ${Location.pathname==='/'?'active':''}`}
                                 activeclassname="active"
                             >
                                 About

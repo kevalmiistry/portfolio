@@ -3,7 +3,6 @@
     text-align: center;
     padding: 1rem 0;
     font-family: 'Lato';
-    // border: 1px solid red;
     display: flex;
     justify-content: space-evenly;
     .socials{
@@ -22,6 +21,7 @@
         font-size: 1rem;
         flex-direction: column;
         .socials{
+            margin-bottom: 1rem;
             a{
                 margin-left: 0.9rem;
                 font-size: 1.5rem;
