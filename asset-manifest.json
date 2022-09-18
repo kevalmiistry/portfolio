@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.580fd4c4.css",
-    "main.js": "/portfolio/static/js/main.ce9be409.js",
-    "static/media/Keval_Mistry_CV.pdf": "/portfolio/static/media/Keval_Mistry_CV.4f79d1e97bab2d3fba71.pdf",
-    "static/media/Lobster.ttf": "/portfolio/static/media/Lobster.009c4aa698c1844252ef.ttf",
-    "static/media/Moderne-Sans.ttf": "/portfolio/static/media/Moderne-Sans.49a2c9e732a9c4b8fc82.ttf",
-    "static/media/ZELDA.ttf": "/portfolio/static/media/ZELDA.d2c4609e49b0bff368a3.ttf",
-    "index.html": "/portfolio/index.html",
-    "main.580fd4c4.css.map": "/portfolio/static/css/main.580fd4c4.css.map",
-    "main.ce9be409.js.map": "/portfolio/static/js/main.ce9be409.js.map"
+    "main.css": "/github.io/portfolio/static/css/main.3b8b0f61.css",
+    "main.js": "/github.io/portfolio/static/js/main.bb4b97d4.js",
+    "static/media/Keval_Mistry_CV.pdf": "/github.io/portfolio/static/media/Keval_Mistry_CV.4f79d1e97bab2d3fba71.pdf",
+    "static/media/Lobster.ttf": "/github.io/portfolio/static/media/Lobster.009c4aa698c1844252ef.ttf",
+    "static/media/Moderne-Sans.ttf": "/github.io/portfolio/static/media/Moderne-Sans.49a2c9e732a9c4b8fc82.ttf",
+    "static/media/ZELDA.ttf": "/github.io/portfolio/static/media/ZELDA.d2c4609e49b0bff368a3.ttf",
+    "index.html": "/github.io/portfolio/index.html",
+    "main.3b8b0f61.css.map": "/github.io/portfolio/static/css/main.3b8b0f61.css.map",
+    "main.bb4b97d4.js.map": "/github.io/portfolio/static/js/main.bb4b97d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.580fd4c4.css",
-    "static/js/main.ce9be409.js"
+    "static/css/main.3b8b0f61.css",
+    "static/js/main.bb4b97d4.js"
   ]
 }
