@@ -1,4 +1,4 @@
-#navbar_main {
+.navbar_main {
     z-index: 100;
     position: sticky;
     top: 0;
@@ -13,16 +13,27 @@
     user-select: none;
     outline: none;
     background-color: #111;
-    animation: fadeIn 1s;
     .navbar_logo {
         font-weight: 800;
         font-size: 2.5rem;
         font-family: 'ZELDA';
-        .small_text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        .arrow_icon {
+            font-size: 1.15rem;
+        }
+
+        .small_text_wrapper {
+            display: inline;
             font-size: 1rem;
-            text-align: center;
-            font-family: 'Moderne Sans';
-            animation: fadeIn 1s;
+            overflow: hidden;
+            .small_text {
+                font-size: 1rem;
+                text-align: center;
+                font-family: 'Moderne Sans';
+                margin-left: 0.5rem;
+            }
         }
     }
     .menu_section {
@@ -84,16 +95,16 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    #navbar_main {
+    .navbar_main {
         padding: 0;
         width: 100%;
         overflow-x: scroll;
         flex-direction: column;
         justify-content: center;
-        .navbar_logo{
-            padding-top: 1rem ;
+        .navbar_logo {
+            padding-top: 1rem;
             padding-left: 1rem;
-            }
+        }
         .menu_section {
             display: flex;
             justify-content: flex-end;
@@ -101,7 +112,7 @@ a {
             align-items: center;
             transition: all 350ms ease-in;
             margin-bottom: 0.6rem;
-            
+
             &:hover {
                 .mobile_nav_point {
                     transform: scale(0);

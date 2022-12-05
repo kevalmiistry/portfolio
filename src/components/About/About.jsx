@@ -1,4 +1,3 @@
-import React from 'react';
 import { faHandPeace } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import S from './About.module.scss';
