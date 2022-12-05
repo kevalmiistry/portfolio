@@ -1,10 +1,17 @@
 import React from 'react';
 import S from './Techs.module.scss';
+import { motion } from 'framer-motion';
 
 const Techs = () => {
     return (
         <>
-            <section className={S.techs_main}>
+            <motion.section
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ delay: 0.2, duration: 0.8 }}
+                className={S.techs_main}
+            >
                 <div className={S.category_section}>
                     <p className={S.category_title}>Core</p>
                     <div className={S.category_items}>
@@ -57,7 +64,7 @@ const Techs = () => {
                         <span className={S.item}>Github</span>
                     </div>
                 </div>
-            </section>
+            </motion.section>
         </>
     );
 };

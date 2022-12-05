@@ -2,11 +2,18 @@ import { faHandPeace } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import S from './About.module.scss';
 import res from '../../assets/resume/Keval_Mistry_CV.pdf';
+import { motion } from 'framer-motion';
 
 const About = () => {
     return (
         <>
-            <section className={S.about_main}>
+            <motion.section
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+                className={S.about_main}
+            >
                 <div className={S.about_content_wrap}>
                     <div className={S.head_line_text}>
                         Hello, I'm Keval Mistry &nbsp;
@@ -24,7 +31,7 @@ const About = () => {
                         Résumé
                     </a>
                 </div>
-            </section>
+            </motion.section>
         </>
     );
 };
