@@ -1,4 +1,4 @@
-#projects_main {
+.projects_main {
     width: 60%;
     margin: auto;
     animation: fadeIn 1s;
@@ -23,6 +23,7 @@
             display: flex;
             flex-wrap: wrap;
             .tag {
+                user-select: none;
                 font-family: 'lato';
                 margin: 5px 0;
                 margin-right: 1rem;
@@ -51,12 +52,15 @@
                     font-family: 'lato';
                 }
             }
+            .live {
+                font-size: 1.5rem;
+            }
         }
     }
 }
 
-@media only screen and (max-width: 600px) {
-    #projects_main {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects_main {
         width: 85%;
         .project_container {
             .project_title {

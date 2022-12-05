@@ -42,3 +42,17 @@ body {
     font-family: 'lobster';
     src: url(./assets/fonts/Lobster.ttf);
 }
+
+.active {
+    &::before {
+        content: '';
+        width: 14px;
+        height: 4px;
+        border-radius: 50vh;
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff;
+    }
+}

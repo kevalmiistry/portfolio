@@ -5,7 +5,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink, useLocation } from 'react-router-dom';
 import S from './Navbar.module.scss';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
     let Location = useLocation();

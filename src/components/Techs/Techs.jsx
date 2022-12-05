@@ -52,16 +52,20 @@ const Techs = () => {
 
     return (
         <>
-            <motion.section
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ delay: 0.2, duration: 0.8 }}
-                className={S.techs_main}
-            >
+            <section className={S.techs_main}>
                 {Secs?.map((sec, idx) => {
                     return (
-                        <div key={idx} className={S.category_section}>
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{
+                                duration: 0.2,
+                                delay: (idx + 1) / 10
+                            }}
+                            key={idx}
+                            className={S.category_section}
+                        >
                             <p className={S.category_title}>{sec.title}</p>
                             <div className={S.category_items}>
                                 {sec.items.map((item, idx) => (
@@ -70,10 +74,10 @@ const Techs = () => {
                                     </span>
                                 ))}
                             </div>
-                        </div>
+                        </motion.div>
                     );
                 })}
-            </motion.section>
+            </section>
         </>
     );
 };
