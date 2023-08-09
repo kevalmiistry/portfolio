@@ -20,19 +20,24 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
+        // border: 1px solid red;
         .arrow_icon {
             font-size: 1.15rem;
+            // border: 1px solid blue;
+            margin-left: 0.25rem;
         }
 
         .small_text_wrapper {
             display: inline;
             font-size: 1rem;
             overflow: hidden;
+            // border: 1px solid green;
             .small_text {
                 font-size: 1rem;
                 text-align: center;
                 font-family: 'Moderne Sans';
                 margin-left: 0.5rem;
+                margin-bottom: 0.25rem;
             }
         }
     }

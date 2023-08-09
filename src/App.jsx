@@ -1,11 +1,11 @@
-import Navbar from './components/Navbar/Navbar';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './components/About/About';
-import Footer from './components/Footer/Footer';
-import Techs from './components/Techs/Techs';
-import Education from './components/Education/Education';
-import Projects from './components/Projects/Projects';
-import S from './App.module.scss';
+import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
+import Techs from "./components/Techs/Techs";
+import Education from "./components/Education/Education";
+import Projects from "./components/Projects/Projects";
+import S from "./App.module.scss";
 
 function App() {
     return (
